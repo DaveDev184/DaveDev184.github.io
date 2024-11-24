@@ -6,8 +6,12 @@
     <title>TecnoKit - Tienda en Línea</title>
     <style>
         /* General Styles */
-        body {
+        html, body {
             margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden; /* Eliminar el scroll horizontal */
             font-family: Arial, sans-serif;
             background-color: #000;
             color: #333;
@@ -49,7 +53,6 @@
             border: none;
         }
 
-        .header .icons img,
         .header .social-icons img {
             width: 30px;
             height: 30px;
@@ -123,10 +126,6 @@
             <h1 style="font-size: 18px; margin: 0;">TecnoKit</h1>
         </div>
         <input type="text" placeholder="Buscar productos...">
-        <div class="icons">
-            <img src="icon-user.png" alt="Cuenta">
-            <img src="icon-cart.png" alt="Carrito">
-        </div>
         <div class="social-icons">
             <a href="https://www.facebook.com" target="_blank">
                 <img src="logo.jpg" alt="Facebook">
